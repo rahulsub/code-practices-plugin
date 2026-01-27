@@ -6,7 +6,7 @@ A collection of coding best practices for LLM-assisted development. These skills
 
 ### From GitHub
 ```bash
-/plugin marketplace add github.com/your-org/code-practices-plugin
+/plugin marketplace add github.com/rahulsub/code-practices-plugin
 ```
 
 ### Local Development

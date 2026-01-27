@@ -2,9 +2,9 @@
   "name": "code-practices",
   "version": "1.0.0",
   "description": "Coding best practices for LLM-assisted development. Based on insights from Karpathy and Anthropic's Claude Code best practices.",
-  "author": "Your Team",
+  "author": "rahulsub",
   "license": "MIT",
-  "repository": "https://github.com/your-org/code-practices-plugin",
+  "repository": "https://github.com/rahulsub/code-practices-plugin",
   "keywords": [
     "coding",
     "best-practices",
