@@ -10,7 +10,10 @@
       "version": "1.0.0",
       "description": "Coding best practices for LLM-assisted development. Based on insights from Karpathy and Anthropic's Claude Code best practices.",
       "license": "MIT",
-      "source": ".",
+      "source": {
+        "type": "git",
+        "repository": "https://github.com/rahulsub/code-practices-plugin"
+      },
       "keywords": [
         "coding",
         "best-practices",
@@ -19,21 +22,21 @@
         "llm",
         "claude-code"
       ],
-      "skills": [
-        {"path": "skills/cleanup"},
-        {"path": "skills/code-review"},
-        {"path": "skills/context-management"},
-        {"path": "skills/explore-plan-code"},
-        {"path": "skills/goal-driven"},
-        {"path": "skills/headless-automation"},
-        {"path": "skills/multi-claude"},
-        {"path": "skills/naive-then-optimize"},
-        {"path": "skills/simplify"},
-        {"path": "skills/surface-assumptions"},
-        {"path": "skills/test-first"},
-        {"path": "skills/tradeoffs"},
-        {"path": "skills/visual-iteration"}
-      ]
+      "skills": {
+        "cleanup": "skills/cleanup",
+        "code-review": "skills/code-review",
+        "context-management": "skills/context-management",
+        "explore-plan-code": "skills/explore-plan-code",
+        "goal-driven": "skills/goal-driven",
+        "headless-automation": "skills/headless-automation",
+        "multi-claude": "skills/multi-claude",
+        "naive-then-optimize": "skills/naive-then-optimize",
+        "simplify": "skills/simplify",
+        "surface-assumptions": "skills/surface-assumptions",
+        "test-first": "skills/test-first",
+        "tradeoffs": "skills/tradeoffs",
+        "visual-iteration": "skills/visual-iteration"
+      }
     }
   ]
 }
