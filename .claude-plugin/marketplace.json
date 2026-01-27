@@ -1,0 +1,31 @@
+{
+  "name": "code-practices",
+  "version": "1.0.0",
+  "description": "Coding best practices for LLM-assisted development. Based on insights from Karpathy and Anthropic's Claude Code best practices.",
+  "author": "rahulsub",
+  "license": "MIT",
+  "repository": "https://github.com/rahulsub/code-practices-plugin",
+  "keywords": [
+    "coding",
+    "best-practices",
+    "code-review",
+    "testing",
+    "llm",
+    "claude-code"
+  ],
+  "skills": [
+    "skills/cleanup",
+    "skills/code-review",
+    "skills/context-management",
+    "skills/explore-plan-code",
+    "skills/goal-driven",
+    "skills/headless-automation",
+    "skills/multi-claude",
+    "skills/naive-then-optimize",
+    "skills/simplify",
+    "skills/surface-assumptions",
+    "skills/test-first",
+    "skills/tradeoffs",
+    "skills/visual-iteration"
+  ]
+}
