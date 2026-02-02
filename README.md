@@ -19,45 +19,45 @@ A collection of coding best practices for LLM-assisted development. These skills
 ### Development Workflow
 | Skill | Command | Description |
 |-------|---------|-------------|
-| **Explore-Plan-Code** | `/code-practices:explore-plan-code` | Read files → plan → approve → implement workflow |
-| **Goal-Driven** | `/code-practices:goal-driven` | Define success criteria instead of step-by-step instructions |
-| **Test-First** | `/code-practices:test-first` | Write failing tests before implementation |
-| **Naive-Then-Optimize** | `/code-practices:naive-then-optimize` | Implement obvious solution first, then optimize |
+| **Explore-Plan-Code** | `/explore-plan-code` | Read files → plan → approve → implement workflow |
+| **Goal-Driven** | `/goal-driven` | Define success criteria instead of step-by-step instructions |
+| **Test-First** | `/test-first` | Write failing tests before implementation |
+| **Naive-Then-Optimize** | `/naive-then-optimize` | Implement obvious solution first, then optimize |
 
 ### Code Quality
 | Skill | Command | Description |
 |-------|---------|-------------|
-| **Code-Review** | `/code-practices:code-review` | Review code like a skeptical senior engineer |
-| **Simplify** | `/code-practices:simplify` | Remove over-engineering and unnecessary abstractions |
-| **Cleanup** | `/code-practices:cleanup` | Systematically remove dead code and tech debt |
-| **Surface-Assumptions** | `/code-practices:surface-assumptions` | Identify and validate hidden assumptions |
-| **Tradeoffs** | `/code-practices:tradeoffs` | Present multiple approaches with explicit tradeoffs |
+| **Code-Review** | `/code-review` | Review code like a skeptical senior engineer |
+| **Simplify** | `/simplify` | Remove over-engineering and unnecessary abstractions |
+| **Cleanup** | `/cleanup` | Systematically remove dead code and tech debt |
+| **Surface-Assumptions** | `/surface-assumptions` | Identify and validate hidden assumptions |
+| **Tradeoffs** | `/tradeoffs` | Present multiple approaches with explicit tradeoffs |
 
 ### Advanced Workflows
 | Skill | Command | Description |
 |-------|---------|-------------|
-| **Visual-Iteration** | `/code-practices:visual-iteration` | UI feedback loop with screenshots |
-| **Context-Management** | `/code-practices:context-management` | Manage long sessions with /clear, checklists, subagents |
-| **Multi-Claude** | `/code-practices:multi-claude` | Run parallel Claude instances for writer+reviewer patterns |
-| **Headless-Automation** | `/code-practices:headless-automation` | CI/CD integration, fan-out migrations, pipelines |
+| **Visual-Iteration** | `/visual-iteration` | UI feedback loop with screenshots |
+| **Context-Management** | `/context-management` | Manage long sessions with /clear, checklists, subagents |
+| **Multi-Claude** | `/multi-claude` | Run parallel Claude instances for writer+reviewer patterns |
+| **Headless-Automation** | `/headless-automation` | CI/CD integration, fan-out migrations, pipelines |
 
 ## Usage Examples
 
 ### Before implementing a feature
 ```
-/code-practices:explore-plan-code
+/explore-plan-code
 ```
 Claude will read relevant files, create a plan, and wait for your approval before coding.
 
 ### After writing code
 ```
-/code-practices:code-review
+/code-review
 ```
 Review the changes for hidden assumptions, over-engineering, and edge cases.
 
 ### For complex algorithms
 ```
-/code-practices:naive-then-optimize
+/naive-then-optimize
 ```
 Implement the obvious correct solution first, then optimize while preserving behavior.
 
